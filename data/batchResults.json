@@ -1,0 +1,802 @@
+[
+  {
+    "claimId": "CLAIM_1",
+    "status": "success",
+    "regTimeSec": 0.258,
+    "verTimeSec": 0.169,
+    "regGas": "209377",
+    "verGas": "81176"
+  },
+  {
+    "claimId": "CLAIM_2",
+    "status": "success",
+    "regTimeSec": 0.184,
+    "verTimeSec": 0.148,
+    "regGas": "209377",
+    "verGas": "81176"
+  },
+  {
+    "claimId": "CLAIM_3",
+    "status": "success",
+    "regTimeSec": 0.198,
+    "verTimeSec": 0.169,
+    "regGas": "209377",
+    "verGas": "81176"
+  },
+  {
+    "claimId": "CLAIM_4",
+    "status": "success",
+    "regTimeSec": 0.2,
+    "verTimeSec": 0.143,
+    "regGas": "209377",
+    "verGas": "81176"
+  },
+  {
+    "claimId": "CLAIM_5",
+    "status": "success",
+    "regTimeSec": 0.187,
+    "verTimeSec": 0.139,
+    "regGas": "209377",
+    "verGas": "81176"
+  },
+  {
+    "claimId": "CLAIM_6",
+    "status": "success",
+    "regTimeSec": 0.197,
+    "verTimeSec": 0.163,
+    "regGas": "209377",
+    "verGas": "81176"
+  },
+  {
+    "claimId": "CLAIM_7",
+    "status": "success",
+    "regTimeSec": 0.2,
+    "verTimeSec": 0.171,
+    "regGas": "209377",
+    "verGas": "81176"
+  },
+  {
+    "claimId": "CLAIM_8",
+    "status": "success",
+    "regTimeSec": 0.197,
+    "verTimeSec": 0.141,
+    "regGas": "209377",
+    "verGas": "81176"
+  },
+  {
+    "claimId": "CLAIM_9",
+    "status": "success",
+    "regTimeSec": 0.192,
+    "verTimeSec": 0.154,
+    "regGas": "209377",
+    "verGas": "81176"
+  },
+  {
+    "claimId": "CLAIM_10",
+    "status": "success",
+    "regTimeSec": 0.193,
+    "verTimeSec": 0.155,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_11",
+    "status": "success",
+    "regTimeSec": 0.196,
+    "verTimeSec": 0.14,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_12",
+    "status": "success",
+    "regTimeSec": 0.179,
+    "verTimeSec": 0.151,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_13",
+    "status": "success",
+    "regTimeSec": 0.185,
+    "verTimeSec": 0.144,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_14",
+    "status": "success",
+    "regTimeSec": 0.182,
+    "verTimeSec": 0.159,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_15",
+    "status": "success",
+    "regTimeSec": 0.18,
+    "verTimeSec": 0.153,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_16",
+    "status": "success",
+    "regTimeSec": 0.197,
+    "verTimeSec": 0.162,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_17",
+    "status": "success",
+    "regTimeSec": 0.189,
+    "verTimeSec": 0.152,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_18",
+    "status": "success",
+    "regTimeSec": 0.217,
+    "verTimeSec": 0.149,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_19",
+    "status": "success",
+    "regTimeSec": 0.192,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_20",
+    "status": "success",
+    "regTimeSec": 0.227,
+    "verTimeSec": 0.169,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_21",
+    "status": "success",
+    "regTimeSec": 0.199,
+    "verTimeSec": 0.158,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_22",
+    "status": "success",
+    "regTimeSec": 0.218,
+    "verTimeSec": 0.164,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_23",
+    "status": "success",
+    "regTimeSec": 0.185,
+    "verTimeSec": 0.139,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_24",
+    "status": "success",
+    "regTimeSec": 0.194,
+    "verTimeSec": 0.15,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_25",
+    "status": "success",
+    "regTimeSec": 0.171,
+    "verTimeSec": 0.162,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_26",
+    "status": "success",
+    "regTimeSec": 0.19,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_27",
+    "status": "success",
+    "regTimeSec": 0.181,
+    "verTimeSec": 0.141,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_28",
+    "status": "success",
+    "regTimeSec": 0.188,
+    "verTimeSec": 0.169,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_29",
+    "status": "success",
+    "regTimeSec": 0.185,
+    "verTimeSec": 0.151,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_30",
+    "status": "success",
+    "regTimeSec": 0.216,
+    "verTimeSec": 0.141,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_31",
+    "status": "success",
+    "regTimeSec": 0.199,
+    "verTimeSec": 0.161,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_32",
+    "status": "success",
+    "regTimeSec": 0.184,
+    "verTimeSec": 0.138,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_33",
+    "status": "success",
+    "regTimeSec": 0.194,
+    "verTimeSec": 0.15,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_34",
+    "status": "success",
+    "regTimeSec": 0.196,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_35",
+    "status": "success",
+    "regTimeSec": 0.196,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_36",
+    "status": "success",
+    "regTimeSec": 0.181,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_37",
+    "status": "success",
+    "regTimeSec": 0.202,
+    "verTimeSec": 0.152,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_38",
+    "status": "success",
+    "regTimeSec": 0.184,
+    "verTimeSec": 0.151,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_39",
+    "status": "success",
+    "regTimeSec": 0.17,
+    "verTimeSec": 0.145,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_40",
+    "status": "success",
+    "regTimeSec": 0.188,
+    "verTimeSec": 0.15,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_41",
+    "status": "success",
+    "regTimeSec": 0.174,
+    "verTimeSec": 0.154,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_42",
+    "status": "success",
+    "regTimeSec": 0.167,
+    "verTimeSec": 0.153,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_43",
+    "status": "success",
+    "regTimeSec": 0.181,
+    "verTimeSec": 0.161,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_44",
+    "status": "success",
+    "regTimeSec": 0.188,
+    "verTimeSec": 0.152,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_45",
+    "status": "success",
+    "regTimeSec": 0.195,
+    "verTimeSec": 0.17,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_46",
+    "status": "success",
+    "regTimeSec": 0.178,
+    "verTimeSec": 0.154,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_47",
+    "status": "success",
+    "regTimeSec": 0.207,
+    "verTimeSec": 0.144,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_48",
+    "status": "success",
+    "regTimeSec": 0.196,
+    "verTimeSec": 0.153,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_49",
+    "status": "success",
+    "regTimeSec": 0.182,
+    "verTimeSec": 0.153,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_50",
+    "status": "success",
+    "regTimeSec": 0.193,
+    "verTimeSec": 0.152,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_51",
+    "status": "success",
+    "regTimeSec": 0.192,
+    "verTimeSec": 0.149,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_52",
+    "status": "success",
+    "regTimeSec": 0.185,
+    "verTimeSec": 0.155,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_53",
+    "status": "success",
+    "regTimeSec": 0.182,
+    "verTimeSec": 0.169,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_54",
+    "status": "success",
+    "regTimeSec": 0.196,
+    "verTimeSec": 0.158,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_55",
+    "status": "success",
+    "regTimeSec": 0.206,
+    "verTimeSec": 0.169,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_56",
+    "status": "success",
+    "regTimeSec": 0.191,
+    "verTimeSec": 0.139,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_57",
+    "status": "success",
+    "regTimeSec": 0.172,
+    "verTimeSec": 0.142,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_58",
+    "status": "success",
+    "regTimeSec": 0.202,
+    "verTimeSec": 0.144,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_59",
+    "status": "success",
+    "regTimeSec": 0.179,
+    "verTimeSec": 0.144,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_60",
+    "status": "success",
+    "regTimeSec": 0.187,
+    "verTimeSec": 0.147,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_61",
+    "status": "success",
+    "regTimeSec": 0.212,
+    "verTimeSec": 0.154,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_62",
+    "status": "success",
+    "regTimeSec": 0.171,
+    "verTimeSec": 0.15,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_63",
+    "status": "success",
+    "regTimeSec": 0.179,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_64",
+    "status": "success",
+    "regTimeSec": 0.195,
+    "verTimeSec": 0.159,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_65",
+    "status": "success",
+    "regTimeSec": 0.171,
+    "verTimeSec": 0.164,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_66",
+    "status": "success",
+    "regTimeSec": 0.174,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_67",
+    "status": "success",
+    "regTimeSec": 0.184,
+    "verTimeSec": 0.14,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_68",
+    "status": "success",
+    "regTimeSec": 0.179,
+    "verTimeSec": 0.156,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_69",
+    "status": "success",
+    "regTimeSec": 0.195,
+    "verTimeSec": 0.147,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_70",
+    "status": "success",
+    "regTimeSec": 0.174,
+    "verTimeSec": 0.154,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_71",
+    "status": "success",
+    "regTimeSec": 0.196,
+    "verTimeSec": 0.16,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_72",
+    "status": "success",
+    "regTimeSec": 0.204,
+    "verTimeSec": 0.142,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_73",
+    "status": "success",
+    "regTimeSec": 0.202,
+    "verTimeSec": 0.156,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_74",
+    "status": "success",
+    "regTimeSec": 0.171,
+    "verTimeSec": 0.161,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_75",
+    "status": "success",
+    "regTimeSec": 0.178,
+    "verTimeSec": 0.154,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_76",
+    "status": "success",
+    "regTimeSec": 0.176,
+    "verTimeSec": 0.17,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_77",
+    "status": "success",
+    "regTimeSec": 0.168,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_78",
+    "status": "success",
+    "regTimeSec": 0.179,
+    "verTimeSec": 0.149,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_79",
+    "status": "success",
+    "regTimeSec": 0.189,
+    "verTimeSec": 0.151,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_80",
+    "status": "success",
+    "regTimeSec": 0.185,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_81",
+    "status": "success",
+    "regTimeSec": 0.175,
+    "verTimeSec": 0.144,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_82",
+    "status": "success",
+    "regTimeSec": 0.187,
+    "verTimeSec": 0.138,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_83",
+    "status": "success",
+    "regTimeSec": 0.178,
+    "verTimeSec": 0.162,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_84",
+    "status": "success",
+    "regTimeSec": 0.19,
+    "verTimeSec": 0.142,
+    "regGas": "209413",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_85",
+    "status": "success",
+    "regTimeSec": 0.205,
+    "verTimeSec": 0.153,
+    "regGas": "209413",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_86",
+    "status": "success",
+    "regTimeSec": 0.179,
+    "verTimeSec": 0.157,
+    "regGas": "209413",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_87",
+    "status": "success",
+    "regTimeSec": 0.182,
+    "verTimeSec": 0.145,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_88",
+    "status": "success",
+    "regTimeSec": 0.202,
+    "verTimeSec": 0.141,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_89",
+    "status": "success",
+    "regTimeSec": 0.172,
+    "verTimeSec": 0.145,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_90",
+    "status": "success",
+    "regTimeSec": 0.176,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_91",
+    "status": "success",
+    "regTimeSec": 0.195,
+    "verTimeSec": 0.163,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_92",
+    "status": "success",
+    "regTimeSec": 0.179,
+    "verTimeSec": 0.158,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_93",
+    "status": "success",
+    "regTimeSec": 0.183,
+    "verTimeSec": 0.154,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_94",
+    "status": "success",
+    "regTimeSec": 0.189,
+    "verTimeSec": 0.152,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_95",
+    "status": "success",
+    "regTimeSec": 0.192,
+    "verTimeSec": 0.19,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_96",
+    "status": "success",
+    "regTimeSec": 0.19,
+    "verTimeSec": 0.151,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_97",
+    "status": "success",
+    "regTimeSec": 0.202,
+    "verTimeSec": 0.168,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_98",
+    "status": "success",
+    "regTimeSec": 0.194,
+    "verTimeSec": 0.153,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_99",
+    "status": "success",
+    "regTimeSec": 0.185,
+    "verTimeSec": 0.146,
+    "regGas": "209425",
+    "verGas": "81188"
+  },
+  {
+    "claimId": "CLAIM_100",
+    "status": "success",
+    "regTimeSec": 0.184,
+    "verTimeSec": 0.155,
+    "regGas": "209473",
+    "verGas": "81200"
+  }
+]
