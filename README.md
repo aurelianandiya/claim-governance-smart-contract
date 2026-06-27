@@ -12,6 +12,7 @@ claim-governance-smart-contract/
 │   └── EvidenceBasedClaimGovernance.sol
 ├── scripts/
 │   └── batchTest.js
+│   └── EvidenceBasedClaimGovernance.abi.json
 ├── data/
 │   └── batchResults.json
 ├── figures/
