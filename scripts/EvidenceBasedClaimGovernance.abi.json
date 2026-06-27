@@ -1,0 +1,659 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			}
+		],
+		"name": "addIssuer",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			}
+		],
+		"name": "addOversight",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			}
+		],
+		"name": "addVerifier",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			}
+		],
+		"name": "checkExpiry",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "bytes32",
+				"name": "claimKey",
+				"type": "bytes32"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "issuer",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint64",
+				"name": "time",
+				"type": "uint64"
+			}
+		],
+		"name": "ClaimRegistered",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "bytes32",
+				"name": "claimKey",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"internalType": "bool",
+				"name": "approved",
+				"type": "bool"
+			},
+			{
+				"indexed": false,
+				"internalType": "bytes32",
+				"name": "evidenceHash",
+				"type": "bytes32"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "verifier",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint64",
+				"name": "time",
+				"type": "uint64"
+			}
+		],
+		"name": "ClaimVerified",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "bytes32",
+				"name": "claimKey",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "evidenceId",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint64",
+				"name": "validUntil",
+				"type": "uint64"
+			},
+			{
+				"indexed": false,
+				"internalType": "bytes32",
+				"name": "evidenceHash",
+				"type": "bytes32"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "actor",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint64",
+				"name": "time",
+				"type": "uint64"
+			}
+		],
+		"name": "EvidenceLinked",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "issuer",
+				"type": "address"
+			}
+		],
+		"name": "IssuerAdded",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "oversight",
+				"type": "address"
+			}
+		],
+		"name": "OversightAdded",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "claimId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "productId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "claimType",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "claimDescription",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "evidenceId",
+						"type": "string"
+					},
+					{
+						"internalType": "uint64",
+						"name": "evidenceValidUntil",
+						"type": "uint64"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "evidenceHash",
+						"type": "bytes32"
+					}
+				],
+				"internalType": "struct EvidenceBasedClaimGovernance.ClaimRegistrationInput",
+				"name": "input",
+				"type": "tuple"
+			}
+		],
+		"name": "registerClaim",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "newEvidenceId",
+				"type": "string"
+			},
+			{
+				"internalType": "uint64",
+				"name": "newEvidenceValidUntil",
+				"type": "uint64"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "newEvidenceHash",
+				"type": "bytes32"
+			}
+		],
+		"name": "renewClaim",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			}
+		],
+		"name": "revokeIssuer",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			}
+		],
+		"name": "revokeOversight",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			}
+		],
+		"name": "revokeVerifier",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "role",
+				"type": "string"
+			}
+		],
+		"name": "RoleRevoked",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "bytes32",
+				"name": "claimKey",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"internalType": "enum EvidenceBasedClaimGovernance.ClaimStatus",
+				"name": "status",
+				"type": "uint8"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "actor",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint64",
+				"name": "time",
+				"type": "uint64"
+			}
+		],
+		"name": "StatusChanged",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			}
+		],
+		"name": "submitForReview",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			}
+		],
+		"name": "suspendClaim",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "verifier",
+				"type": "address"
+			}
+		],
+		"name": "VerifierAdded",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "approved",
+				"type": "bool"
+			}
+		],
+		"name": "verifyClaim",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			}
+		],
+		"name": "withdrawClaim",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "admin",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			}
+		],
+		"name": "getClaim",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "storedClaimId",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "productId",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "claimType",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "claimDescription",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "issuer",
+				"type": "address"
+			},
+			{
+				"internalType": "enum EvidenceBasedClaimGovernance.ClaimStatus",
+				"name": "status",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint64",
+				"name": "createdAt",
+				"type": "uint64"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			}
+		],
+		"name": "getClaimStatus",
+		"outputs": [
+			{
+				"internalType": "enum EvidenceBasedClaimGovernance.ClaimStatus",
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			}
+		],
+		"name": "getEvidence",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "evidenceId",
+				"type": "string"
+			},
+			{
+				"internalType": "uint64",
+				"name": "evidenceValidUntil",
+				"type": "uint64"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "evidenceHash",
+				"type": "bytes32"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "index",
+				"type": "uint256"
+			}
+		],
+		"name": "getVerificationByIndex",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "verifier",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "approved",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint64",
+						"name": "time",
+						"type": "uint64"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "evidenceHash",
+						"type": "bytes32"
+					}
+				],
+				"internalType": "struct EvidenceBasedClaimGovernance.Verification",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "claimId",
+				"type": "string"
+			}
+		],
+		"name": "getVerificationCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "isIssuer",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "isOversight",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "isVerifier",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
