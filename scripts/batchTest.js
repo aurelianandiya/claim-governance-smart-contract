@@ -667,17 +667,19 @@ async function main() {
     ) +
     365 * 24 * 60 * 60;
 
-  const latestResultsFile =
-    path.join(
-      __dirname,
-      "batchResults.json"
-    );
+  const dataDirectory = path.join(__dirname, "..", "data");
+fs.mkdirSync(dataDirectory, { recursive: true });
 
-  const archivalResultsFile =
-    path.join(
-      __dirname,
-      `batchResults_${runId}.json`
-    );
+   const latestResultsFile = path.join(
+   dataDirectory,
+   "batchResults.json"
+   );
+
+   const archivalResultsFile = path.join(
+   dataDirectory,
+   `batchResults_${runId}.json`
+   );
+
 
   const outputFiles = [
     latestResultsFile,
